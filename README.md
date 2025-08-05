@@ -56,6 +56,22 @@ void loop() {
   shell.handleInput();
 }
 ```
+---
+
+## 📡 How to use the console
+
+Open the **Serial Monitor** (at 115200 baud) from your IDE.
+
+Then simply type commands and press Enter. For example:
+
+```
+DIR
+TYPE /config.json
+DEL /file.txt
+JSONSET /config.json name "Daniel"
+```
+
+Use `HELP` to view the full list of available commands.
 
 ---
 
