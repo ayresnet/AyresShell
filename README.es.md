@@ -60,6 +60,23 @@ void loop() {
 
 ---
 
+## 📡 Cómo usar la consola
+
+Abre el **Monitor Serial** (a 115200 baudios) desde tu IDE.
+
+Luego simplemente escribí los comandos y presioná Enter. Por ejemplo:
+
+```
+DIR
+TYPE /config.json
+DEL /archivo.txt
+JSONSET /config.json nombre "Daniel"
+```
+
+Usá `HELP` para ver todos los comandos disponibles.
+
+---
+
 ## 🧭 Comandos incluidos
 
 | Comando                  | Descripción                                                  |
