@@ -103,3 +103,7 @@ Distribuido bajo la licencia MIT.
 Libre para usar, modificar y compartir.
 
 ---
+
+> 📘 [Read this in English → README.md](README.md)
+
+
