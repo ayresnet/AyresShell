@@ -1,19 +1,23 @@
 {
   "name": "AyresShell",
   "version": "1.0.0",
-  "description": "Consola serial interactiva para ESP32",
-  "keywords": ["shell", "serial", "esp32", "debug", "console"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ayresnet/AyresShell"
-  },
+  "description": "AyresShell: a DOS-style serial shell for ESP32 to browse LittleFS, run built-ins, and edit JSON from the Serial Monitor.",
+  "keywords": "shell,serial,esp32,console,cli,littlefs,filesystem,json,debug,tools",
   "authors": [
-    {
-      "name": "Daniel Cristian Salgado",
-      "email": "dcsalg@outlook.com"
-    }
+    { "name": "Daniel Salgado", "maintainer": true, "url": "https://github.com/ayresnet" },
+    { "name": "AyresNet" }
   ],
   "license": "MIT",
+  "homepage": "https://github.com/ayresnet/AyresShell",
+  "repository": { "type": "git", "url": "https://github.com/ayresnet/AyresShell.git" },
   "frameworks": "arduino",
-  "platforms": "espressif32"
+  "platforms": ["espressif32"],
+  "headers": ["AyresShell.h"],
+  "dependencies": [
+    { "name": "ArduinoJson", "owner": "bblanchon", "version": "^6.21.2" }
+  ],
+  "examples": ["examples/*/*"],
+  "export": {
+    "exclude": [".github", "test", "docs", "extras", "*.zip"]
+  }
 }
