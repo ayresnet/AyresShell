@@ -1,0 +1,32 @@
+# Syntax Coloring Map For AyresShell
+# ----------------------------------
+# Formato: <palabra><TAB><tipo>
+# Tipos válidos: KEYWORD1 (clases/Tipos), KEYWORD2 (métodos/funciones), LITERAL1 (constantes)
+
+# ---- Clases / Tipos propios ----
+AyresShell	KEYWORD1
+
+# ---- Métodos públicos de la clase ----
+begin	KEYWORD2
+handleInput	KEYWORD2
+addCommand	KEYWORD2
+
+# ---- Funciones auxiliares expuestas en los fuentes ----
+listDir	KEYWORD2
+readFile	KEYWORD2
+deleteFile	KEYWORD2
+renameFile	KEYWORD2
+moveFile	KEYWORD2
+createDir	KEYWORD2
+removeDir	KEYWORD2
+clearScreen	KEYWORD2
+help	KEYWORD2
+handleSerialCommands	KEYWORD2
+
+# ---- Utilidades JSON ----
+updateJsonField	KEYWORD2
+loadJsonFile	KEYWORD2
+saveJsonFile	KEYWORD2
+
+# ---- Constantes ----
+JSON_DOC_SIZE	LITERAL1
