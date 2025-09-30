@@ -3,7 +3,7 @@
 </p>
 
 ---
-[![GitHub stars](https://img.shields.io/github/stars/ayresnet/AyresWiFiManager?style=social)](https://github.com/ayresnet/AyresWiFiManager/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/ayresnet/AyresShell?style=social)](https://github.com/ayresnet/AyresShell/stargazers)
 
 #### ⭐ **If you find this project useful, please consider giving it a star. Thank you.**
 ----
