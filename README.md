@@ -2,6 +2,11 @@
   <img src="https://res.cloudinary.com/dxunooptp/image/upload/v1754359437/banner_github_20250804_225256_0000_i9yrwv.jpg" alt="AyresShell Banner" width="100%" />
 </p>
 
+---
+[![GitHub stars](https://img.shields.io/github/stars/ayresnet/AyresWiFiManager?style=social)](https://github.com/ayresnet/AyresWiFiManager/stargazers)
+
+#### ⭐ **If you find this project useful, please consider giving it a star. Thank you.**
+----
 # AyresShell
 
 **AyresShell** is an interactive serial console for ESP32 that lets you execute administrative, debugging, file management, and JSON editing commands directly from the serial monitor.  
